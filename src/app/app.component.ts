@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-root',
@@ -8,8 +9,18 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'remote-doorbell';
 
+  constructor(private http: HttpClient) {}
+
   ringDoorbell() {
-    // @todo make http call
-    console.log("ringing...");
+    const data = { message: 'Ring the doorbell in HWGWG' };
+
+    this.http.post('http://localhost:5000/ring', data).subscribe(
+      (response) => {
+        console.log('Request successful:', response);
+      },
+      (error) => {
+        console.error('An error occurred:', error);
+      }
+    );
   }
 }
