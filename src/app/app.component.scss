@@ -1,36 +1,36 @@
-.doorbell-wrapper {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  min-height: 100vh;
-  background-color: rgba(204,232,236,255);
+// .doorbell-wrapper {
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: center;
+//   align-items: center;
+//   text-align: center;
+//   min-height: 100vh;
+//   background-color: rgba(204,232,236,255);
 
-  button {
-    display: flex;
-    gap: 0.35rem;
-    justify-content: center;
-    align-items: center;
+//   button {
+//     display: flex;
+//     gap: 0.35rem;
+//     justify-content: center;
+//     align-items: center;
     
-    background-color: rgb(21,76,121);
-    border: none;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 20px;
-    cursor: pointer;
+//     background-color: rgb(21,76,121);
+//     border: none;
+//     color: white;
+//     padding: 10px 20px;
+//     border-radius: 20px;
+//     cursor: pointer;
 
-    #doorbell-icon path {
-      fill: white;
-    }
+//     #doorbell-icon path {
+//       fill: white;
+//     }
     
-    &:hover {
-      background-color: rgba(8, 19, 31, 1);
-    }
+//     &:hover {
+//       background-color: rgba(8, 19, 31, 1);
+//     }
     
-    &:focus {
-      outline: none;
-      box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
-    }
-  }
-}
+//     &:focus {
+//       outline: none;
+//       box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+//     }
+//   }
+// }

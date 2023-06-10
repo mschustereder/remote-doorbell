@@ -8,8 +8,8 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'remote-doorbell';
 
-  ringDoorbell() {
-    // @todo make http call
-    console.log("ringing...");
-  }
+  // ringDoorbell() {
+  //   // @todo make http call
+  //   console.log("ringing...");
+  // }
 }
